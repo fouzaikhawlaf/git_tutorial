@@ -18,7 +18,7 @@ app.get('/todos/ajouter',(req,res)=>{
 
     const todosObj ={
         Content :"learn coding",
-        date :"10-12-2
+        date :"10-12-2021",
     }
     
     const todos= new todosModel(todosObj);
@@ -61,3 +61,7 @@ db.on('error',err=>{
 app.listen(3000,()=>{
     console.log("serveur demarer");
 });
+
+
+
+console.log("bonjour");
